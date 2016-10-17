@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9416F7211C8383A6003850A7 /* EPExpandableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9416F7201C8383A6003850A7 /* EPExpandableCell.m */; };
+		9416F7231C844085003850A7 /* EPExpandableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9416F7221C844085003850A7 /* EPExpandableCell.xib */; };
+		94C243321C80B2B800C6B987 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C243311C80B2B800C6B987 /* main.m */; };
+		94C243351C80B2B800C6B987 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C243341C80B2B800C6B987 /* AppDelegate.m */; };
+		94C2433D1C80B2B800C6B987 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94C2433C1C80B2B800C6B987 /* Assets.xcassets */; };
+		94C243521C80B2CD00C6B987 /* EPApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C2434C1C80B2CD00C6B987 /* EPApiManager.m */; };
+		94C243531C80B2CD00C6B987 /* EPModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C243511C80B2CD00C6B987 /* EPModel.m */; };
+		94C243571C80B6E300C6B987 /* ForexTestStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C243561C80B6E300C6B987 /* ForexTestStyle.m */; };
+		94C2435A1C80B77800C6B987 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94C243591C80B77800C6B987 /* Storyboard.storyboard */; };
+		94C2435D1C80B7A900C6B987 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C2435C1C80B7A900C6B987 /* TableViewController.m */; };
+		94C243601C80BC6D00C6B987 /* EPApiManager+MessageRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C2435F1C80BC6D00C6B987 /* EPApiManager+MessageRequest.m */; };
+		94C243651C80BDE600C6B987 /* EPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C243641C80BDE600C6B987 /* EPMessage.m */; };
+		94C243681C80BDF800C6B987 /* EPMessageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C243671C80BDF800C6B987 /* EPMessageInfo.m */; };
+		94C2436E1C82244900C6B987 /* EPView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C2436D1C82244900C6B987 /* EPView.m */; };
+		94C243711C82264B00C6B987 /* EPBottomPaneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C243701C82264B00C6B987 /* EPBottomPaneView.m */; };
+		94C243751C82266A00C6B987 /* EPBottomPaneView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94C243741C82266A00C6B987 /* EPBottomPaneView.xib */; };
+		9AB343297890E279CA3E2E7E /* libPods-ForexClubTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 286E3D383F4B952AC1E61488 /* libPods-ForexClubTest.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B5503B8B48FC58DBCAC6743 /* Pods-ForexClubTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForexClubTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-ForexClubTest/Pods-ForexClubTest.release.xcconfig"; sourceTree = "<group>"; };
+		286E3D383F4B952AC1E61488 /* libPods-ForexClubTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ForexClubTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9416F71F1C8383A6003850A7 /* EPExpandableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EPExpandableCell.h; path = View/ExpandableCell/EPExpandableCell.h; sourceTree = "<group>"; };
+		9416F7201C8383A6003850A7 /* EPExpandableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EPExpandableCell.m; path = View/ExpandableCell/EPExpandableCell.m; sourceTree = "<group>"; };
+		9416F7221C844085003850A7 /* EPExpandableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EPExpandableCell.xib; path = View/ExpandableCell/EPExpandableCell.xib; sourceTree = "<group>"; };
+		94C2432D1C80B2B800C6B987 /* ForexClubTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForexClubTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94C243311C80B2B800C6B987 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94C243331C80B2B800C6B987 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		94C243341C80B2B800C6B987 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		94C2433C1C80B2B800C6B987 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94C243411C80B2B800C6B987 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94C243491C80B2CD00C6B987 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		94C2434B1C80B2CD00C6B987 /* EPApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPApiManager.h; sourceTree = "<group>"; };
+		94C2434C1C80B2CD00C6B987 /* EPApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPApiManager.m; sourceTree = "<group>"; };
+		94C243501C80B2CD00C6B987 /* EPModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPModel.h; sourceTree = "<group>"; };
+		94C243511C80B2CD00C6B987 /* EPModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPModel.m; sourceTree = "<group>"; };
+		94C243551C80B6E300C6B987 /* ForexTestStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ForexTestStyle.h; path = Resources/UIColors/ForexTestStyle.h; sourceTree = "<group>"; };
+		94C243561C80B6E300C6B987 /* ForexTestStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ForexTestStyle.m; path = Resources/UIColors/ForexTestStyle.m; sourceTree = "<group>"; };
+		94C243591C80B77800C6B987 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		94C2435B1C80B7A900C6B987 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		94C2435C1C80B7A900C6B987 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		94C2435E1C80BC6D00C6B987 /* EPApiManager+MessageRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "EPApiManager+MessageRequest.h"; path = "Requests/EPApiManager+MessageRequest.h"; sourceTree = "<group>"; };
+		94C2435F1C80BC6D00C6B987 /* EPApiManager+MessageRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "EPApiManager+MessageRequest.m"; path = "Requests/EPApiManager+MessageRequest.m"; sourceTree = "<group>"; };
+		94C243631C80BDE600C6B987 /* EPMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPMessage.h; sourceTree = "<group>"; };
+		94C243641C80BDE600C6B987 /* EPMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPMessage.m; sourceTree = "<group>"; };
+		94C243661C80BDF800C6B987 /* EPMessageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPMessageInfo.h; sourceTree = "<group>"; };
+		94C243671C80BDF800C6B987 /* EPMessageInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPMessageInfo.m; sourceTree = "<group>"; };
+		94C2436C1C82244900C6B987 /* EPView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EPView.h; path = View/EPView/EPView.h; sourceTree = "<group>"; };
+		94C2436D1C82244900C6B987 /* EPView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EPView.m; path = View/EPView/EPView.m; sourceTree = "<group>"; };
+		94C2436F1C82264B00C6B987 /* EPBottomPaneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EPBottomPaneView.h; path = View/BottomPane/EPBottomPaneView.h; sourceTree = "<group>"; };
+		94C243701C82264B00C6B987 /* EPBottomPaneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EPBottomPaneView.m; path = View/BottomPane/EPBottomPaneView.m; sourceTree = "<group>"; };
+		94C243741C82266A00C6B987 /* EPBottomPaneView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EPBottomPaneView.xib; path = View/BottomPane/EPBottomPaneView.xib; sourceTree = "<group>"; };
+		A07E4FA27A7D727DD5D2EF8E /* Pods-ForexClubTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForexClubTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ForexClubTest/Pods-ForexClubTest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94C2432A1C80B2B800C6B987 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AB343297890E279CA3E2E7E /* libPods-ForexClubTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68B430E2D40BD1C049640A3C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		94C243241C80B2B800C6B987 = {
+			isa = PBXGroup;
+			children = (
+				94C2432F1C80B2B800C6B987 /* ForexClubTest */,
+				94C2432E1C80B2B800C6B987 /* Products */,
+				F1210DD7FAC6EBC9D5924439 /* Pods */,
+				96100F4C8A2D9FE6509252D8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		94C2432E1C80B2B800C6B987 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94C2432D1C80B2B800C6B987 /* ForexClubTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94C2432F1C80B2B800C6B987 /* ForexClubTest */ = {
+			isa = PBXGroup;
+			children = (
+				94C243471C80B2CD00C6B987 /* Managers */,
+				94C2434D1C80B2CD00C6B987 /* MVC */,
+				94C243541C80B38B00C6B987 /* Resources */,
+				94C243301C80B2B800C6B987 /* Supporting Files */,
+				94C243591C80B77800C6B987 /* Storyboard.storyboard */,
+				94C2435B1C80B7A900C6B987 /* TableViewController.h */,
+				94C2435C1C80B7A900C6B987 /* TableViewController.m */,
+			);
+			path = ForexClubTest;
+			sourceTree = "<group>";
+		};
+		94C243301C80B2B800C6B987 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94C243411C80B2B800C6B987 /* Info.plist */,
+				94C243331C80B2B800C6B987 /* AppDelegate.h */,
+				94C243341C80B2B800C6B987 /* AppDelegate.m */,
+				94C243311C80B2B800C6B987 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94C243471C80B2CD00C6B987 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				94C243481C80B2CD00C6B987 /* Constants */,
+				94C2434A1C80B2CD00C6B987 /* EPApiManager */,
+				94C243611C80BC7200C6B987 /* Requests */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		94C243481C80B2CD00C6B987 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				94C243491C80B2CD00C6B987 /* Constants.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		94C2434A1C80B2CD00C6B987 /* EPApiManager */ = {
+			isa = PBXGroup;
+			children = (
+				94C2434B1C80B2CD00C6B987 /* EPApiManager.h */,
+				94C2434C1C80B2CD00C6B987 /* EPApiManager.m */,
+			);
+			path = EPApiManager;
+			sourceTree = "<group>";
+		};
+		94C2434D1C80B2CD00C6B987 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				94C243691C8223D400C6B987 /* View */,
+				94C2434E1C80B2CD00C6B987 /* Models */,
+				68B430E2D40BD1C049640A3C /* Controller */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		94C2434E1C80B2CD00C6B987 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				94C2434F1C80B2CD00C6B987 /* EPModel */,
+				94C243631C80BDE600C6B987 /* EPMessage.h */,
+				94C243641C80BDE600C6B987 /* EPMessage.m */,
+				94C243661C80BDF800C6B987 /* EPMessageInfo.h */,
+				94C243671C80BDF800C6B987 /* EPMessageInfo.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		94C2434F1C80B2CD00C6B987 /* EPModel */ = {
+			isa = PBXGroup;
+			children = (
+				94C243501C80B2CD00C6B987 /* EPModel.h */,
+				94C243511C80B2CD00C6B987 /* EPModel.m */,
+			);
+			path = EPModel;
+			sourceTree = "<group>";
+		};
+		94C243541C80B38B00C6B987 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				94C2433C1C80B2B800C6B987 /* Assets.xcassets */,
+				94C243581C80B6E900C6B987 /* UIColors */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		94C243581C80B6E900C6B987 /* UIColors */ = {
+			isa = PBXGroup;
+			children = (
+				94C243551C80B6E300C6B987 /* ForexTestStyle.h */,
+				94C243561C80B6E300C6B987 /* ForexTestStyle.m */,
+			);
+			name = UIColors;
+			sourceTree = "<group>";
+		};
+		94C243611C80BC7200C6B987 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				94C243621C80BC7C00C6B987 /* Message */,
+			);
+			name = Requests;
+			sourceTree = "<group>";
+		};
+		94C243621C80BC7C00C6B987 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				94C2435E1C80BC6D00C6B987 /* EPApiManager+MessageRequest.h */,
+				94C2435F1C80BC6D00C6B987 /* EPApiManager+MessageRequest.m */,
+			);
+			name = Message;
+			sourceTree = "<group>";
+		};
+		94C243691C8223D400C6B987 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				94C2436B1C82240F00C6B987 /* EPView */,
+				94C2436A1C8223DF00C6B987 /* BottomPane */,
+				9416F71F1C8383A6003850A7 /* EPExpandableCell.h */,
+				9416F7201C8383A6003850A7 /* EPExpandableCell.m */,
+				9416F7221C844085003850A7 /* EPExpandableCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		94C2436A1C8223DF00C6B987 /* BottomPane */ = {
+			isa = PBXGroup;
+			children = (
+				94C2436F1C82264B00C6B987 /* EPBottomPaneView.h */,
+				94C243701C82264B00C6B987 /* EPBottomPaneView.m */,
+				94C243741C82266A00C6B987 /* EPBottomPaneView.xib */,
+			);
+			name = BottomPane;
+			sourceTree = "<group>";
+		};
+		94C2436B1C82240F00C6B987 /* EPView */ = {
+			isa = PBXGroup;
+			children = (
+				94C2436C1C82244900C6B987 /* EPView.h */,
+				94C2436D1C82244900C6B987 /* EPView.m */,
+			);
+			name = EPView;
+			sourceTree = "<group>";
+		};
+		96100F4C8A2D9FE6509252D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				286E3D383F4B952AC1E61488 /* libPods-ForexClubTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1210DD7FAC6EBC9D5924439 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A07E4FA27A7D727DD5D2EF8E /* Pods-ForexClubTest.debug.xcconfig */,
+				1B5503B8B48FC58DBCAC6743 /* Pods-ForexClubTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94C2432C1C80B2B800C6B987 /* ForexClubTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94C243441C80B2B800C6B987 /* Build configuration list for PBXNativeTarget "ForexClubTest" */;
+			buildPhases = (
+				6186BFD51C94EA6C903FF1B1 /* Check Pods Manifest.lock */,
+				94C243291C80B2B800C6B987 /* Sources */,
+				94C2432A1C80B2B800C6B987 /* Frameworks */,
+				94C2432B1C80B2B800C6B987 /* Resources */,
+				DD228474E72C31384A37C17C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ForexClubTest;
+			productName = ForexClubTest;
+			productReference = 94C2432D1C80B2B800C6B987 /* ForexClubTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94C243251C80B2B800C6B987 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = EP;
+				TargetAttributes = {
+					94C2432C1C80B2B800C6B987 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 94C243281C80B2B800C6B987 /* Build configuration list for PBXProject "ForexClubTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94C243241C80B2B800C6B987;
+			productRefGroup = 94C2432E1C80B2B800C6B987 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94C2432C1C80B2B800C6B987 /* ForexClubTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94C2432B1C80B2B800C6B987 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9416F7231C844085003850A7 /* EPExpandableCell.xib in Resources */,
+				94C2433D1C80B2B800C6B987 /* Assets.xcassets in Resources */,
+				94C2435A1C80B77800C6B987 /* Storyboard.storyboard in Resources */,
+				94C243751C82266A00C6B987 /* EPBottomPaneView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6186BFD51C94EA6C903FF1B1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DD228474E72C31384A37C17C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ForexClubTest/Pods-ForexClubTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94C243291C80B2B800C6B987 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C243681C80BDF800C6B987 /* EPMessageInfo.m in Sources */,
+				94C243651C80BDE600C6B987 /* EPMessage.m in Sources */,
+				9416F7211C8383A6003850A7 /* EPExpandableCell.m in Sources */,
+				94C243351C80B2B800C6B987 /* AppDelegate.m in Sources */,
+				94C2435D1C80B7A900C6B987 /* TableViewController.m in Sources */,
+				94C243711C82264B00C6B987 /* EPBottomPaneView.m in Sources */,
+				94C243601C80BC6D00C6B987 /* EPApiManager+MessageRequest.m in Sources */,
+				94C243321C80B2B800C6B987 /* main.m in Sources */,
+				94C243531C80B2CD00C6B987 /* EPModel.m in Sources */,
+				94C243571C80B6E300C6B987 /* ForexTestStyle.m in Sources */,
+				94C243521C80B2CD00C6B987 /* EPApiManager.m in Sources */,
+				94C2436E1C82244900C6B987 /* EPView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		94C243421C80B2B800C6B987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94C243431C80B2B800C6B987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94C243451C80B2B800C6B987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A07E4FA27A7D727DD5D2EF8E /* Pods-ForexClubTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = ForexClubTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EP.ForexClubTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		94C243461C80B2B800C6B987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B5503B8B48FC58DBCAC6743 /* Pods-ForexClubTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = ForexClubTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EP.ForexClubTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94C243281C80B2B800C6B987 /* Build configuration list for PBXProject "ForexClubTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C243421C80B2B800C6B987 /* Debug */,
+				94C243431C80B2B800C6B987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94C243441C80B2B800C6B987 /* Build configuration list for PBXNativeTarget "ForexClubTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C243451C80B2B800C6B987 /* Debug */,
+				94C243461C80B2B800C6B987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94C243251C80B2B800C6B987 /* Project object */;
+}
