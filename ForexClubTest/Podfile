@@ -5,5 +5,7 @@ target 'ForexClubTest' do
 
 	pod 'RestKit'
 	pod 'ECSlidingViewController'
+    pod 'MBProgressHUD'
+    
 end
 

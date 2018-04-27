@@ -18,6 +18,14 @@
     return [UIColor colorWithRed:0.5f green:0.5f blue:0.5f alpha:1.0f];
 }
 
++(UIColor *)cellSelectedColor{
+    return [UIColor greenColor];
+}
+
++(UIColor *)cellBackgroundColor{
+    return [UIColor whiteColor];
+}
+
 // -----------------------------------------------------------------------------
 #pragma mark - Fonts
 // -----------------------------------------------------------------------------

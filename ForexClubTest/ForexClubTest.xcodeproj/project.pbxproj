@@ -9,14 +9,19 @@
 /* Begin PBXBuildFile section */
 		9416F7211C8383A6003850A7 /* EPExpandableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9416F7201C8383A6003850A7 /* EPExpandableCell.m */; };
 		9416F7231C844085003850A7 /* EPExpandableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9416F7221C844085003850A7 /* EPExpandableCell.xib */; };
+		9416F72F1C87EB38003850A7 /* UIView+Fold.m in Sources */ = {isa = PBXBuildFile; fileRef = 9416F72C1C87EB38003850A7 /* UIView+Fold.m */; };
+		9416F7301C87EB38003850A7 /* UIView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9416F72E1C87EB38003850A7 /* UIView+Utils.m */; };
+		9416F7331C883EC4003850A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9416F7321C883EC4003850A7 /* ViewController.m */; };
+		9416F73A1C885479003850A7 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9416F7391C885479003850A7 /* ViewController.xib */; };
+		9416F73F1C885F14003850A7 /* EPPushedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9416F73E1C885F14003850A7 /* EPPushedVC.m */; };
+		9416F7421C885F31003850A7 /* EPPushedVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9416F7411C885F31003850A7 /* EPPushedVC.xib */; };
 		94C243321C80B2B800C6B987 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C243311C80B2B800C6B987 /* main.m */; };
 		94C243351C80B2B800C6B987 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C243341C80B2B800C6B987 /* AppDelegate.m */; };
 		94C2433D1C80B2B800C6B987 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94C2433C1C80B2B800C6B987 /* Assets.xcassets */; };
 		94C243521C80B2CD00C6B987 /* EPApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C2434C1C80B2CD00C6B987 /* EPApiManager.m */; };
 		94C243531C80B2CD00C6B987 /* EPModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C243511C80B2CD00C6B987 /* EPModel.m */; };
 		94C243571C80B6E300C6B987 /* ForexTestStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C243561C80B6E300C6B987 /* ForexTestStyle.m */; };
-		94C2435A1C80B77800C6B987 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94C243591C80B77800C6B987 /* Storyboard.storyboard */; };
-		94C2435D1C80B7A900C6B987 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C2435C1C80B7A900C6B987 /* TableViewController.m */; };
+		94C2435D1C80B7A900C6B987 /* MessageService.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C2435C1C80B7A900C6B987 /* MessageService.m */; };
 		94C243601C80BC6D00C6B987 /* EPApiManager+MessageRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C2435F1C80BC6D00C6B987 /* EPApiManager+MessageRequest.m */; };
 		94C243651C80BDE600C6B987 /* EPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C243641C80BDE600C6B987 /* EPMessage.m */; };
 		94C243681C80BDF800C6B987 /* EPMessageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C243671C80BDF800C6B987 /* EPMessageInfo.m */; };
@@ -29,9 +34,19 @@
 /* Begin PBXFileReference section */
 		1B5503B8B48FC58DBCAC6743 /* Pods-ForexClubTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForexClubTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-ForexClubTest/Pods-ForexClubTest.release.xcconfig"; sourceTree = "<group>"; };
 		286E3D383F4B952AC1E61488 /* libPods-ForexClubTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ForexClubTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9416F71F1C8383A6003850A7 /* EPExpandableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EPExpandableCell.h; path = View/ExpandableCell/EPExpandableCell.h; sourceTree = "<group>"; };
-		9416F7201C8383A6003850A7 /* EPExpandableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EPExpandableCell.m; path = View/ExpandableCell/EPExpandableCell.m; sourceTree = "<group>"; };
-		9416F7221C844085003850A7 /* EPExpandableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EPExpandableCell.xib; path = View/ExpandableCell/EPExpandableCell.xib; sourceTree = "<group>"; };
+		9416F71F1C8383A6003850A7 /* EPExpandableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPExpandableCell.h; sourceTree = "<group>"; };
+		9416F7201C8383A6003850A7 /* EPExpandableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPExpandableCell.m; sourceTree = "<group>"; };
+		9416F7221C844085003850A7 /* EPExpandableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EPExpandableCell.xib; sourceTree = "<group>"; };
+		9416F72B1C87EB38003850A7 /* UIView+Fold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Fold.h"; sourceTree = "<group>"; };
+		9416F72C1C87EB38003850A7 /* UIView+Fold.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Fold.m"; sourceTree = "<group>"; };
+		9416F72D1C87EB38003850A7 /* UIView+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Utils.h"; sourceTree = "<group>"; };
+		9416F72E1C87EB38003850A7 /* UIView+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Utils.m"; sourceTree = "<group>"; };
+		9416F7311C883EC4003850A7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9416F7321C883EC4003850A7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9416F7391C885479003850A7 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		9416F73D1C885F14003850A7 /* EPPushedVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPPushedVC.h; sourceTree = "<group>"; };
+		9416F73E1C885F14003850A7 /* EPPushedVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPPushedVC.m; sourceTree = "<group>"; };
+		9416F7411C885F31003850A7 /* EPPushedVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EPPushedVC.xib; sourceTree = "<group>"; };
 		94C2432D1C80B2B800C6B987 /* ForexClubTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForexClubTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94C243311C80B2B800C6B987 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		94C243331C80B2B800C6B987 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -43,22 +58,21 @@
 		94C2434C1C80B2CD00C6B987 /* EPApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPApiManager.m; sourceTree = "<group>"; };
 		94C243501C80B2CD00C6B987 /* EPModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPModel.h; sourceTree = "<group>"; };
 		94C243511C80B2CD00C6B987 /* EPModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPModel.m; sourceTree = "<group>"; };
-		94C243551C80B6E300C6B987 /* ForexTestStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ForexTestStyle.h; path = Resources/UIColors/ForexTestStyle.h; sourceTree = "<group>"; };
-		94C243561C80B6E300C6B987 /* ForexTestStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ForexTestStyle.m; path = Resources/UIColors/ForexTestStyle.m; sourceTree = "<group>"; };
-		94C243591C80B77800C6B987 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
-		94C2435B1C80B7A900C6B987 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
-		94C2435C1C80B7A900C6B987 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
-		94C2435E1C80BC6D00C6B987 /* EPApiManager+MessageRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "EPApiManager+MessageRequest.h"; path = "Requests/EPApiManager+MessageRequest.h"; sourceTree = "<group>"; };
-		94C2435F1C80BC6D00C6B987 /* EPApiManager+MessageRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "EPApiManager+MessageRequest.m"; path = "Requests/EPApiManager+MessageRequest.m"; sourceTree = "<group>"; };
+		94C243551C80B6E300C6B987 /* ForexTestStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForexTestStyle.h; sourceTree = "<group>"; };
+		94C243561C80B6E300C6B987 /* ForexTestStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForexTestStyle.m; sourceTree = "<group>"; };
+		94C2435B1C80B7A900C6B987 /* MessageService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageService.h; sourceTree = "<group>"; };
+		94C2435C1C80B7A900C6B987 /* MessageService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageService.m; sourceTree = "<group>"; };
+		94C2435E1C80BC6D00C6B987 /* EPApiManager+MessageRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EPApiManager+MessageRequest.h"; sourceTree = "<group>"; };
+		94C2435F1C80BC6D00C6B987 /* EPApiManager+MessageRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EPApiManager+MessageRequest.m"; sourceTree = "<group>"; };
 		94C243631C80BDE600C6B987 /* EPMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPMessage.h; sourceTree = "<group>"; };
 		94C243641C80BDE600C6B987 /* EPMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPMessage.m; sourceTree = "<group>"; };
 		94C243661C80BDF800C6B987 /* EPMessageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPMessageInfo.h; sourceTree = "<group>"; };
 		94C243671C80BDF800C6B987 /* EPMessageInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPMessageInfo.m; sourceTree = "<group>"; };
-		94C2436C1C82244900C6B987 /* EPView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EPView.h; path = View/EPView/EPView.h; sourceTree = "<group>"; };
-		94C2436D1C82244900C6B987 /* EPView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EPView.m; path = View/EPView/EPView.m; sourceTree = "<group>"; };
-		94C2436F1C82264B00C6B987 /* EPBottomPaneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EPBottomPaneView.h; path = View/BottomPane/EPBottomPaneView.h; sourceTree = "<group>"; };
-		94C243701C82264B00C6B987 /* EPBottomPaneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EPBottomPaneView.m; path = View/BottomPane/EPBottomPaneView.m; sourceTree = "<group>"; };
-		94C243741C82266A00C6B987 /* EPBottomPaneView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EPBottomPaneView.xib; path = View/BottomPane/EPBottomPaneView.xib; sourceTree = "<group>"; };
+		94C2436C1C82244900C6B987 /* EPView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPView.h; sourceTree = "<group>"; };
+		94C2436D1C82244900C6B987 /* EPView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPView.m; sourceTree = "<group>"; };
+		94C2436F1C82264B00C6B987 /* EPBottomPaneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPBottomPaneView.h; sourceTree = "<group>"; };
+		94C243701C82264B00C6B987 /* EPBottomPaneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPBottomPaneView.m; sourceTree = "<group>"; };
+		94C243741C82266A00C6B987 /* EPBottomPaneView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EPBottomPaneView.xib; sourceTree = "<group>"; };
 		A07E4FA27A7D727DD5D2EF8E /* Pods-ForexClubTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForexClubTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ForexClubTest/Pods-ForexClubTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,17 +91,77 @@
 		68B430E2D40BD1C049640A3C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				9416F73C1C885DC8003850A7 /* MessageVC */,
+				9416F7401C885F22003850A7 /* PushedVC */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		9416F7281C87EB38003850A7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9416F72B1C87EB38003850A7 /* UIView+Fold.h */,
+				9416F72C1C87EB38003850A7 /* UIView+Fold.m */,
+				9416F72D1C87EB38003850A7 /* UIView+Utils.h */,
+				9416F72E1C87EB38003850A7 /* UIView+Utils.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		9416F7341C8845AE003850A7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9416F7381C8845DC003850A7 /* Message */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9416F7381C8845DC003850A7 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				94C2435B1C80B7A900C6B987 /* MessageService.h */,
+				94C2435C1C80B7A900C6B987 /* MessageService.m */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		9416F73B1C885DA1003850A7 /* ExpandableCell */ = {
+			isa = PBXGroup;
+			children = (
+				9416F71F1C8383A6003850A7 /* EPExpandableCell.h */,
+				9416F7201C8383A6003850A7 /* EPExpandableCell.m */,
+				9416F7221C844085003850A7 /* EPExpandableCell.xib */,
+			);
+			path = ExpandableCell;
+			sourceTree = "<group>";
+		};
+		9416F73C1C885DC8003850A7 /* MessageVC */ = {
+			isa = PBXGroup;
+			children = (
+				9416F7311C883EC4003850A7 /* ViewController.h */,
+				9416F7321C883EC4003850A7 /* ViewController.m */,
+				9416F7391C885479003850A7 /* ViewController.xib */,
+			);
+			path = MessageVC;
+			sourceTree = "<group>";
+		};
+		9416F7401C885F22003850A7 /* PushedVC */ = {
+			isa = PBXGroup;
+			children = (
+				9416F73D1C885F14003850A7 /* EPPushedVC.h */,
+				9416F73E1C885F14003850A7 /* EPPushedVC.m */,
+				9416F7411C885F31003850A7 /* EPPushedVC.xib */,
+			);
+			path = PushedVC;
 			sourceTree = "<group>";
 		};
 		94C243241C80B2B800C6B987 = {
 			isa = PBXGroup;
 			children = (
 				94C2432F1C80B2B800C6B987 /* ForexClubTest */,
-				94C2432E1C80B2B800C6B987 /* Products */,
-				F1210DD7FAC6EBC9D5924439 /* Pods */,
 				96100F4C8A2D9FE6509252D8 /* Frameworks */,
+				F1210DD7FAC6EBC9D5924439 /* Pods */,
+				94C2432E1C80B2B800C6B987 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,13 +176,12 @@
 		94C2432F1C80B2B800C6B987 /* ForexClubTest */ = {
 			isa = PBXGroup;
 			children = (
-				94C243471C80B2CD00C6B987 /* Managers */,
+				9416F7281C87EB38003850A7 /* Helpers */,
 				94C2434D1C80B2CD00C6B987 /* MVC */,
+				94C243471C80B2CD00C6B987 /* Managers */,
 				94C243541C80B38B00C6B987 /* Resources */,
+				9416F7341C8845AE003850A7 /* Services */,
 				94C243301C80B2B800C6B987 /* Supporting Files */,
-				94C243591C80B77800C6B987 /* Storyboard.storyboard */,
-				94C2435B1C80B7A900C6B987 /* TableViewController.h */,
-				94C2435C1C80B7A900C6B987 /* TableViewController.m */,
 			);
 			path = ForexClubTest;
 			sourceTree = "<group>";
@@ -116,12 +189,12 @@
 		94C243301C80B2B800C6B987 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				94C243411C80B2B800C6B987 /* Info.plist */,
 				94C243331C80B2B800C6B987 /* AppDelegate.h */,
 				94C243341C80B2B800C6B987 /* AppDelegate.m */,
+				94C243411C80B2B800C6B987 /* Info.plist */,
 				94C243311C80B2B800C6B987 /* main.m */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		94C243471C80B2CD00C6B987 /* Managers */ = {
@@ -154,9 +227,9 @@
 		94C2434D1C80B2CD00C6B987 /* MVC */ = {
 			isa = PBXGroup;
 			children = (
-				94C243691C8223D400C6B987 /* View */,
-				94C2434E1C80B2CD00C6B987 /* Models */,
 				68B430E2D40BD1C049640A3C /* Controller */,
+				94C2434E1C80B2CD00C6B987 /* Models */,
+				94C243691C8223D400C6B987 /* View */,
 			);
 			path = MVC;
 			sourceTree = "<group>";
@@ -185,10 +258,10 @@
 		94C243541C80B38B00C6B987 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				94C2433C1C80B2B800C6B987 /* Assets.xcassets */,
 				94C243581C80B6E900C6B987 /* UIColors */,
+				94C2433C1C80B2B800C6B987 /* Assets.xcassets */,
 			);
-			name = Resources;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		94C243581C80B6E900C6B987 /* UIColors */ = {
@@ -197,7 +270,7 @@
 				94C243551C80B6E300C6B987 /* ForexTestStyle.h */,
 				94C243561C80B6E300C6B987 /* ForexTestStyle.m */,
 			);
-			name = UIColors;
+			path = UIColors;
 			sourceTree = "<group>";
 		};
 		94C243611C80BC7200C6B987 /* Requests */ = {
@@ -205,7 +278,7 @@
 			children = (
 				94C243621C80BC7C00C6B987 /* Message */,
 			);
-			name = Requests;
+			path = Requests;
 			sourceTree = "<group>";
 		};
 		94C243621C80BC7C00C6B987 /* Message */ = {
@@ -214,19 +287,17 @@
 				94C2435E1C80BC6D00C6B987 /* EPApiManager+MessageRequest.h */,
 				94C2435F1C80BC6D00C6B987 /* EPApiManager+MessageRequest.m */,
 			);
-			name = Message;
+			path = Message;
 			sourceTree = "<group>";
 		};
 		94C243691C8223D400C6B987 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				94C2436B1C82240F00C6B987 /* EPView */,
 				94C2436A1C8223DF00C6B987 /* BottomPane */,
-				9416F71F1C8383A6003850A7 /* EPExpandableCell.h */,
-				9416F7201C8383A6003850A7 /* EPExpandableCell.m */,
-				9416F7221C844085003850A7 /* EPExpandableCell.xib */,
+				94C2436B1C82240F00C6B987 /* EPView */,
+				9416F73B1C885DA1003850A7 /* ExpandableCell */,
 			);
-			name = View;
+			path = View;
 			sourceTree = "<group>";
 		};
 		94C2436A1C8223DF00C6B987 /* BottomPane */ = {
@@ -236,7 +307,7 @@
 				94C243701C82264B00C6B987 /* EPBottomPaneView.m */,
 				94C243741C82266A00C6B987 /* EPBottomPaneView.xib */,
 			);
-			name = BottomPane;
+			path = BottomPane;
 			sourceTree = "<group>";
 		};
 		94C2436B1C82240F00C6B987 /* EPView */ = {
@@ -245,7 +316,7 @@
 				94C2436C1C82244900C6B987 /* EPView.h */,
 				94C2436D1C82244900C6B987 /* EPView.m */,
 			);
-			name = EPView;
+			path = EPView;
 			sourceTree = "<group>";
 		};
 		96100F4C8A2D9FE6509252D8 /* Frameworks */ = {
@@ -293,6 +364,7 @@
 		94C243251C80B2B800C6B987 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = EP;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = EP;
 				TargetAttributes = {
@@ -324,9 +396,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9416F73A1C885479003850A7 /* ViewController.xib in Resources */,
 				9416F7231C844085003850A7 /* EPExpandableCell.xib in Resources */,
 				94C2433D1C80B2B800C6B987 /* Assets.xcassets in Resources */,
-				94C2435A1C80B77800C6B987 /* Storyboard.storyboard in Resources */,
+				9416F7421C885F31003850A7 /* EPPushedVC.xib in Resources */,
 				94C243751C82266A00C6B987 /* EPBottomPaneView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,17 +444,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9416F72F1C87EB38003850A7 /* UIView+Fold.m in Sources */,
 				94C243681C80BDF800C6B987 /* EPMessageInfo.m in Sources */,
 				94C243651C80BDE600C6B987 /* EPMessage.m in Sources */,
 				9416F7211C8383A6003850A7 /* EPExpandableCell.m in Sources */,
 				94C243351C80B2B800C6B987 /* AppDelegate.m in Sources */,
-				94C2435D1C80B7A900C6B987 /* TableViewController.m in Sources */,
+				94C2435D1C80B7A900C6B987 /* MessageService.m in Sources */,
 				94C243711C82264B00C6B987 /* EPBottomPaneView.m in Sources */,
 				94C243601C80BC6D00C6B987 /* EPApiManager+MessageRequest.m in Sources */,
+				9416F7301C87EB38003850A7 /* UIView+Utils.m in Sources */,
+				9416F7331C883EC4003850A7 /* ViewController.m in Sources */,
 				94C243321C80B2B800C6B987 /* main.m in Sources */,
 				94C243531C80B2CD00C6B987 /* EPModel.m in Sources */,
 				94C243571C80B6E300C6B987 /* ForexTestStyle.m in Sources */,
 				94C243521C80B2CD00C6B987 /* EPApiManager.m in Sources */,
+				9416F73F1C885F14003850A7 /* EPPushedVC.m in Sources */,
 				94C2436E1C82244900C6B987 /* EPView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -477,7 +554,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
-				INFOPLIST_FILE = ForexClubTest/Info.plist;
+				INFOPLIST_FILE = "ForexClubTest/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.EP.ForexClubTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -490,7 +568,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
-				INFOPLIST_FILE = ForexClubTest/Info.plist;
+				INFOPLIST_FILE = "ForexClubTest/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.EP.ForexClubTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";

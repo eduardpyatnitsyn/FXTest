@@ -11,6 +11,8 @@
 @interface ForexTestStyle : NSObject
 
 +(UIColor *) backgroundColor;
++(UIColor *) cellSelectedColor;
++(UIColor *) cellBackgroundColor;
 
 +(UIFont *) regularFontOfSize:(CGFloat) size;
 +(UIFont *) regularFont;

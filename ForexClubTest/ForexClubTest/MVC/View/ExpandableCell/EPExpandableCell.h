@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "EPMessage.h"
 
 @interface EPExpandableCell : UITableViewCell
+
+@property (nonatomic, assign) BOOL withDetails;
+
+-(void) openDetails;
+-(void) closeDetails;
+
+-(void) setModel:(EPMessage *)message;
 
 @end

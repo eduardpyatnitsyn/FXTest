@@ -13,8 +13,6 @@
 
 @interface EPApiManager : NSObject
 
-+(instancetype) sharedManager;
-
 - (void)configureResponseDescriptor:(EPModel *)mappingClass
                              method:(RKRequestMethod) method
                                path:(NSString *) path
